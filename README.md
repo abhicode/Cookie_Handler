@@ -29,3 +29,4 @@ runs on port 3000
 Create Cookie button creates a cookie with validity as entered by user.
 Send request with Cookie button displays the created cookie by fetching it from the backend.
 
+![Screenshot](/images/webpage.png?raw=true "Cookie Handler")
