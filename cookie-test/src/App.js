@@ -46,9 +46,6 @@ function App() {
         clearInterval(interval);
       }
     }
-    else {
-      setResMsg(null);
-    }
   });
 
   return (
