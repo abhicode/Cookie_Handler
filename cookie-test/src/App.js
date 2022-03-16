@@ -57,8 +57,8 @@ function App() {
           timer > 0 ? <p>{data}. It will expire in {timer} seconds.</p> :
           <p>Cookie Expired!</p>
         }
-        <label>Set Cookie Name and Value</label>
-        <input type='text' onChange={(e) => setCookie(e.target.value)} value={cookie} />
+        <label>Set Cookie Name and Value [example: id=abc]</label>
+        <input type='text' placeholder="<cookie_id>=<cookie_value>" onChange={(e) => setCookie(e.target.value)} value={cookie} />
         <label>Set Time to Expire (in seconds)</label>
         <input type='text' onChange={(e) => setTime(e.target.value)} value={time}/>
         <br></br>
